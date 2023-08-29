@@ -30,7 +30,7 @@ body {
     border-radius: 50px;
     box-shadow: 0 10px 25px rgba(255, 255, 255, 0.35);
     transition: 0.5s;
-    transform: translateX(20px);
+    transform: translate(490px, 125px);
 }
 
 .card:hover {
@@ -93,7 +93,7 @@ body {
     border-radius: 25px;
     width: 150px;
     height: 50px;
-    transform: translate(124px, 115px);
+    transform: translate(20px, 115px);
     transition: 0.5s;
     font-size: 15px;
     cursor: pointer;
@@ -103,14 +103,37 @@ body {
 
 .card:hover #dl-button {
     border-radius: 25px;
-    width: 238px;
-    height: 50px;
-    transform: translate(78px, 140px);
+    transform: translate(20px, 150px);
     transition: 0.5s;
     font-size: 15px;
 }
 
 #dl-button:hover {
+    background-color: #1e1e1e;
+    color: #fff;
+    cursor: pointer;
+}
+
+#oldver {
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    transform: translate(76px, 115px);
+    transition: 0.5s;
+    font-size: 15px;
+    cursor: pointer;
+    border-style: none;
+    outline: #000 solid 2px;
+}
+
+.card:hover #oldver {
+    border-radius: 25px;
+    transform: translate(78px, 150px);
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+#oldver:hover {
     background-color: #1e1e1e;
     color: #fff;
     cursor: pointer;
