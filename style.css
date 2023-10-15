@@ -78,13 +78,13 @@ body {
 }
 
 .version {
-    transform: translate(182px, 77px);
+    transform: translate(184px, 77px);
     transition: 0.5s;
     font-size: 15px;
 }
 
 .card:hover .version {
-    transform: translate(175px, 90px);
+    transform: translate(174px, 90px);
     transition: 0.5s;
     font-size: 25px;
 }
