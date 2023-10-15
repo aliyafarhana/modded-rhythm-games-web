@@ -22,22 +22,22 @@ body {
     text-align: center;
 }
 
-.card {
-    position: relative;
+.card471 {
+    position: absolute;
     background-color: #dedede;
     width: 400px;
     height: 250px;
     border-radius: 50px;
     box-shadow: 0 10px 25px rgba(255, 255, 255, 0.35);
     transition: 0.5s;
-    transform: translate(490px, 125px);
+    transform: translate(25px, 125px);
 }
 
-.card:hover {
+.card471:hover {
     height: 300px;
 }
 
-.app-icon {
+.app-icon471 {
     left: 27%;
     transform: translateX(42%);
     top: -50px;
@@ -51,13 +51,13 @@ body {
     transition: 0.5s;
 }
 
-.card:hover .app-icon {
+.card471:hover .app-icon471 {
     width: 111px;
     height: 111px;
     left: 24%;
 }
 
-.app-icon img {
+.app-icon471 img {
     top: 0;
     left: 0;
     width: 100%;
@@ -65,31 +65,31 @@ body {
     object-fit: cover;
 }
 
-.app-name {
+.app-name471 {
     transform: translate(157px, 75px);
     transition: 0.5s;
     font-size: 25px;
 }
 
-.card:hover .app-name {
+.card471:hover .app-name471 {
     transform: translate(137px, 85px);
     transition: 0.5s;
     font-size: 35px;
 }
 
-.version {
-    transform: translate(182px, 77px);
+.version471 {
+    transform: translate(185px, 77px);
     transition: 0.5s;
     font-size: 15px;
 }
 
-.card:hover .version {
-    transform: translate(175px, 90px);
+.card471:hover .version471 {
+    transform: translate(172px, 90px);
     transition: 0.5s;
     font-size: 25px;
 }
 
-#dl-button {
+#dl-button471 {
     border-radius: 25px;
     width: 150px;
     height: 50px;
@@ -101,7 +101,7 @@ body {
     outline: #000 solid 2px;
 }
 
-.card:hover #dl-button {
+.card471:hover #dl-button471 {
     border-radius: 25px;
     transform: translate(78px, 145px);
     transition: 0.5s;
@@ -109,7 +109,286 @@ body {
     font-size: 15px;
 }
 
-#dl-button:hover {
+#dl-button471:hover {
+    background-color: #1e1e1e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card470 {
+    position: absolute;
+    background-color: #dedede;
+    width: 400px;
+    height: 250px;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.35);
+    transition: 0.5s;
+    transform: translate(480px, 125px);
+}
+
+.card470:hover {
+    height: 300px;
+}
+
+.app-icon470 {
+    left: 27%;
+    transform: translateX(42%);
+    top: -50px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    background-color: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card470:hover .app-icon470 {
+    width: 111px;
+    height: 111px;
+    left: 24%;
+}
+
+.app-icon470 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app-name470 {
+    transform: translate(157px, 75px);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.card470:hover .app-name470 {
+    transform: translate(137px, 85px);
+    transition: 0.5s;
+    font-size: 35px;
+}
+
+.version470 {
+    transform: translate(183px, 77px);
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.card470:hover .version470 {
+    transform: translate(169px, 90px);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+#dl-button470 {
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    transform: translate(122px, 115px);
+    transition: 0.5s;
+    font-size: 15px;
+    cursor: pointer;
+    border-style: none;
+    outline: #000 solid 2px;
+}
+
+.card470:hover #dl-button470 {
+    border-radius: 25px;
+    transform: translate(78px, 145px);
+    transition: 0.5s;
+    width: 238px;
+    font-size: 15px;
+}
+
+#dl-button470:hover {
+    background-color: #1e1e1e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card460 {
+    position: absolute;
+    background-color: #dedede;
+    width: 400px;
+    height: 250px;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.35);
+    transition: 0.5s;
+    transform: translate(938px, 125px);
+}
+
+.card460:hover {
+    height: 300px;
+}
+
+.app-icon460 {
+    left: 27%;
+    transform: translateX(42%);
+    top: -50px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    background-color: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card460:hover .app-icon460 {
+    width: 111px;
+    height: 111px;
+    left: 24%;
+}
+
+.app-icon460 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app-name460 {
+    transform: translate(157px, 75px);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.card460:hover .app-name460 {
+    transform: translate(137px, 85px);
+    transition: 0.5s;
+    font-size: 35px;
+}
+
+.version460 {
+    transform: translate(182px, 77px);
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.card460:hover .version460 {
+    transform: translate(170px, 90px);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+#dl-button460 {
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    transform: translate(122px, 115px);
+    transition: 0.5s;
+    font-size: 15px;
+    cursor: pointer;
+    border-style: none;
+    outline: #000 solid 2px;
+}
+
+.card460:hover #dl-button460 {
+    border-radius: 25px;
+    transform: translate(78px, 145px);
+    transition: 0.5s;
+    width: 238px;
+    font-size: 15px;
+}
+
+#dl-button460:hover {
+    background-color: #1e1e1e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card453 {
+    position: relative;
+    background-color: #dedede;
+    width: 400px;
+    height: 250px;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.35);
+    transition: 0.5s;
+    transform: translate(25px, 490px);
+}
+
+.card453:hover {
+    height: 300px;
+}
+
+.app-icon453 {
+    left: 27%;
+    transform: translateX(42%);
+    top: -50px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    background-color: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card453:hover .app-icon453 {
+    width: 111px;
+    height: 111px;
+    left: 24%;
+}
+
+.app-icon453 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app-name453 {
+    transform: translate(157px, 75px);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.card453:hover .app-name453 {
+    transform: translate(137px, 85px);
+    transition: 0.5s;
+    font-size: 35px;
+}
+
+.version453 {
+    transform: translate(181px, 77px);
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.card453:hover .version453 {
+    transform: translate(167px, 90px);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+#dl-button453 {
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    transform: translate(122px, 115px);
+    transition: 0.5s;
+    font-size: 15px;
+    cursor: pointer;
+    border-style: none;
+    outline: #000 solid 2px;
+}
+
+.card453:hover #dl-button453 {
+    border-radius: 25px;
+    transform: translate(78px, 145px);
+    transition: 0.5s;
+    width: 238px;
+    font-size: 15px;
+}
+
+#dl-button453:hover {
     background-color: #1e1e1e;
     color: #fff;
     cursor: pointer;
