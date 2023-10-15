@@ -8,6 +8,18 @@
 
 body {
     background-color:#1e1e1e;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 .main .title {
@@ -389,6 +401,285 @@ body {
 }
 
 #dl-button453:hover {
+    background-color: #1e1e1e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card450 {
+    position: relative;
+    background-color: #dedede;
+    width: 400px;
+    height: 250px;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.35);
+    transition: 0.5s;
+    transform: translate(480px, 240px);
+}
+
+.card450:hover {
+    height: 300px;
+}
+
+.app-icon450 {
+    left: 27%;
+    transform: translateX(42%);
+    top: -50px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    background-color: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card450:hover .app-icon450 {
+    width: 111px;
+    height: 111px;
+    left: 24%;
+}
+
+.app-icon450 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app-name450 {
+    transform: translate(157px, 75px);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.card450:hover .app-name450 {
+    transform: translate(137px, 85px);
+    transition: 0.5s;
+    font-size: 35px;
+}
+
+.version450 {
+    transform: translate(181px, 77px);
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.card450:hover .version450 {
+    transform: translate(167px, 90px);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+#dl-button450 {
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    transform: translate(122px, 115px);
+    transition: 0.5s;
+    font-size: 15px;
+    cursor: pointer;
+    border-style: none;
+    outline: #000 solid 2px;
+}
+
+.card450:hover #dl-button450 {
+    border-radius: 25px;
+    transform: translate(78px, 145px);
+    transition: 0.5s;
+    width: 238px;
+    font-size: 15px;
+}
+
+#dl-button450:hover {
+    background-color: #1e1e1e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card446 {
+    position: relative;
+    background-color: #dedede;
+    width: 400px;
+    height: 250px;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.35);
+    transition: 0.5s;
+    transform: translate(938px, -10px);
+}
+
+.card446:hover {
+    height: 300px;
+}
+
+.app-icon446 {
+    left: 27%;
+    transform: translateX(42%);
+    top: -50px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    background-color: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card446:hover .app-icon446 {
+    width: 111px;
+    height: 111px;
+    left: 24%;
+}
+
+.app-icon446 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app-name446 {
+    transform: translate(157px, 75px);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.card446:hover .app-name446 {
+    transform: translate(137px, 85px);
+    transition: 0.5s;
+    font-size: 35px;
+}
+
+.version446 {
+    transform: translate(181px, 77px);
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.card446:hover .version446 {
+    transform: translate(167px, 90px);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+#dl-button446 {
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    transform: translate(122px, 115px);
+    transition: 0.5s;
+    font-size: 15px;
+    cursor: pointer;
+    border-style: none;
+    outline: #000 solid 2px;
+}
+
+.card446:hover #dl-button446 {
+    border-radius: 25px;
+    transform: translate(78px, 145px);
+    transition: 0.5s;
+    width: 238px;
+    font-size: 15px;
+}
+
+#dl-button446:hover {
+    background-color: #1e1e1e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card444 {
+    position: relative;
+    background-color: #dedede;
+    width: 400px;
+    height: 250px;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.35);
+    transition: 0.5s;
+    transform: translate(25px, 110px);
+}
+
+.card444:hover {
+    height: 300px;
+}
+
+.app-icon444 {
+    left: 27%;
+    transform: translateX(42%);
+    top: -50px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    background-color: #fff;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card444:hover .app-icon444 {
+    width: 111px;
+    height: 111px;
+    left: 24%;
+}
+
+.app-icon444 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app-name444 {
+    transform: translate(157px, 75px);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.card444:hover .app-name444 {
+    transform: translate(137px, 85px);
+    transition: 0.5s;
+    font-size: 35px;
+}
+
+.version444 {
+    transform: translate(181px, 77px);
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.card444:hover .version444 {
+    transform: translate(167px, 90px);
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+#dl-button444 {
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    transform: translate(122px, 115px);
+    transition: 0.5s;
+    font-size: 15px;
+    cursor: pointer;
+    border-style: none;
+    outline: #000 solid 2px;
+}
+
+.card444:hover #dl-button444 {
+    border-radius: 25px;
+    transform: translate(78px, 145px);
+    transition: 0.5s;
+    width: 238px;
+    font-size: 15px;
+}
+
+#dl-button444:hover {
     background-color: #1e1e1e;
     color: #fff;
     cursor: pointer;
